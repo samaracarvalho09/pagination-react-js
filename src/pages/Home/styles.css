@@ -1,0 +1,42 @@
+body {
+  background-color: #202024;
+  color: #E1E1E6;
+}
+
+thead th {
+  text-align: start;
+  padding: 1rem;
+  
+}
+
+table {
+  width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.5rem;
+    margin-top: 1.5rem;
+
+    font-family: sans-serif;
+}
+
+.titles {
+  background-color: #495d55;
+}
+
+
+td:first-child, .titles th:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+td:last-child, .titles th:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+td {
+  padding: 0.8rem;
+  background: #29292E;
+
+
+}
+

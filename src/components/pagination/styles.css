@@ -1,0 +1,24 @@
+button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  float: left;
+  line-height: 1.42857;
+  margin-left: -1px;
+  padding: 4px 10px;
+  position: relative;
+  text-decoration: none;
+  color: rgba(33, 37, 41, .6);
+  font-size: 13px;
+  font-family: "Helvetica Neue",
+
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #e9ecef;
+}
+
+button.buttonCurrentPage {
+  background-color: #263659;
+  color: #fff;
+}
