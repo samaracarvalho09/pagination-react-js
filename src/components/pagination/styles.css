@@ -7,16 +7,11 @@
 button {
   background-color: #29292E;
   border: 1px solid #ddd;
-  float: left;
   line-height: 1.42857;
   margin-left: -1px;
   padding: 4px 10px;
-  position: relative;
-  text-decoration: none;
   color: #fff;
   font-size: 13px;
-  outline: none;
-
 }
 
 button:hover {
