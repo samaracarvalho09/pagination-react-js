@@ -1,5 +1,11 @@
+.wrapper {
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+
 button {
-  background-color: #fff;
+  background-color: #29292E;
   border: 1px solid #ddd;
   float: left;
   line-height: 1.42857;
@@ -7,18 +13,18 @@ button {
   padding: 4px 10px;
   position: relative;
   text-decoration: none;
-  color: rgba(33, 37, 41, .6);
+  color: #fff;
   font-size: 13px;
-  font-family: "Helvetica Neue",
+  outline: none;
 
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #e9ecef;
+  background-color: #3b3b40;
 }
 
 button.buttonCurrentPage {
-  background-color: #263659;
+  background-color: #779f8f;
   color: #fff;
 }
